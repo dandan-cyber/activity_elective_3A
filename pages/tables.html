@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="../css/customstyle.css">
+</head>
+<body>
+    <!-- STARTING HEADER --> 
+    <header>
+        <h1>College of Information and Computing Sciences</h1>
+        <h3>Bachelor of Science in Information Systems</h3>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contactUs.html">Contact us</a> |
+            <a href="inquiry.html">Inquiry</a> |
+            <a href="profile.html">Profile</a> |
+        </div>
+    </header>
+    <!-- ENDING HEADER-->
+
+    <!-- STARTING SECTION -->
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="list.html">HTML linkss</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="videos.html">Videos</a></li>
+            </ul>
+        </nav>
+        <article >
+            <h3>TABLE FORMAT HTML </h3>            
+            <table border="1" class="table_data" >
+                <colgroup>
+                    <col style="width: 40%;">
+                    <col style="width: 30%;">
+                    <col style="width: 30%;">
+                </colgroup>
+                <tr>
+                   <th>Student Name</th>
+                   <th>Age</th>
+                   <th>Course</th>
+                </tr>
+                <tr>
+                   <td>Daniel</td>
+                   <td>20</td>
+                   <td>BSIS 3A</td>
+                </tr>
+                <tr>
+                   <td>Vineth</td>
+                   <td>40</td>
+                   <td>BSIS 3A</td>
+                </tr>
+                <tr>
+                   <td>Mulo</td>
+                   <td>30</td>
+                   <td>BSIS 3A</td>
+                </tr>
+                <tr>
+                    <td>Flore</td>
+                    <td>18</td>
+                    <td>BSIS 3A</td>
+                </tr>
+                </table>
+
+                <!-- TABLE WITH THEAD TBODY TFOOT-->
+                <p>THIS IS FOR THE TABLE STRUCTURE WITH THEAD, TBODY AND TFOOT</p>
+
+                <table border="1" class="data_table" >
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Course</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">DANIEL TOLOSA</td>
+                            <td>20</td>
+                            <td>BSIS-III</td>
+                        </tr>
+                        <tr>                            
+                            <td>21</td>
+                            <td>BSIS-III</td>
+                        </tr>
+                        <tr>                            
+                            <td>20</td>
+                            <td>BSIS-III</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"><small><b>INFORMATION</b></small></td>
+                            
+                            <td><small>info</small></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+                <!-- NESTED TABLES-->
+                <h3><b>Nested Tables</b></h3>                
+                <table border="1">
+                    <figcaption><b>Table 1.</b> This is the sample data of a table</figcaption>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Content of A Table</th>
+                        </tr>
+                        <tr>
+                            <th>Category</th>
+                            <th>Creamline Products</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cream Cups
+                                <table border="1">
+                                    <tr>
+                                        <th>Flavor</th>
+                                        <th>Size</th>
+                                    </tr>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ube</td>
+                                            <td>1.5Liter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>Creamline Ubequeso-Patillas</td>
+                            <td>34</td>
+                            <td>$4000</td>
+                        </tr>
+                        <tr>
+                            <td>1L Family Duo </td>
+                            <td>Creamline Cookies-Cream</td>
+                            <td>34</td>
+                            <td>$3000</td>
+                        </tr>
+                        <tr>
+                            <td>Gold Bars</td>
+                            <td>Creamline Rocky-Road</td>
+                            <td>34</td>
+                            <td>$2000</td>
+                        </tr>
+                        <tr>
+                            <td>Cream Bars</td>
+                            <td>Creamline Double-Dutch</td>
+                            <td>34</td>
+                            <td>$1000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+
+
+            
+        </article>      
+    </section>
+    <!-- END SECTION -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a> |
+            <a href="">Policy</a> |
+            <a href="">Terms of Use</a> |
+            <a href="">Policy</a> |
+            <a href="">Privacy</a> |
+            <a href="contactUs.html">Contact</a> |
+        </div>
+        <div>
+            <p><b>Copyright © 2024. </b>MarSu Sta Cruz Campus, BSIS Students</p>
+        </div>
+    </footer>
+    <!-- END FOOTER-->
+</body>
+</html>

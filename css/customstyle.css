@@ -1,0 +1,111 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+}
+
+header{
+    text-align: center;
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+}
+
+header .container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+}
+
+header .container a:hover{
+    background-color: #004d40;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    background-color: #4db6ac;
+    height: 700px;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: #b2dfdb;
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: #004d40;
+    font-family: 'Verdana', sans-serif;
+}
+
+.navigation_menu li:hover{
+    background-color: #00796b;
+}
+
+footer{
+    text-align: center;
+    background-color: #004d40;
+    padding: 15px;
+} 
+
+footer h2{
+    color: white;
+    padding-top: 15px;
+}
+
+.footer_menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table_data {
+     text-align: center;
+}
+
+.login_form h2{
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #00796b;
+}
+
+/* THIS IS THE STYLE FOR HTML LIST */
+
+.FirstColumn {
+    float: left;
+}
+
+.SecondColumn {
+    float: right;
+}
+
+.profile_form h1{
+   
+   text-align: center;
+   color: #004d40;
+}
+
+.img_src{
+    
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEADING</title>
+    <link rel="stylesheet" href="../css/customstyle.css">
+
+    <style>
+        .form1 {
+            float: left;
+        }
+        .form2 {
+            float: right;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- STARTING HEADER --> 
+    <header>
+        <h1>College of Information and Computing Sciences</h1>
+        <h3>Bachelor of Science in Information Systems</h3>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contactUs.html">Contact us</a> |
+            <a href="inquiry.html">Inquiry</a> |
+            <a href="profile.html">Profile</a> |
+        </div>
+    </header>
+    <!-- ENDING HEADER-->
+
+    <!-- STARTING SECTION -->
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="list.html">HTML linkss</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="videos.html">Videos</a></li>
+            </ul>
+        </nav>
+        <article class="login_form">
+            <!-- STARTING LOGIN FORM -->
+            <h2>HTML FORM</h2>
+        <div class="form1">
+            <form action="list.html" method="post">
+                <label for="">FirstName:</label>
+                <input type="text" name="fname" id="fname" required><br>
+                <label for="">LastName:</label>
+                <input type="text" name="lname" id="lname" required><br>
+                
+                <!-- <input type="checkbox" name="gender" id="gender" > Gender <br> -->
+                <label for="">Date:</label>
+                <input type="date" name="datenow" id="datenow" required><br>
+                <label for="">Email:</label>
+                <input type="email" name="emailadd" id="emailadd" required><br>
+                <label for="">Button:</label>
+                <input type="button" value="Button"><br>
+                <label for="">Color:</label>
+                <input type="color" name="colors" id="colors"><br>
+                <label for="">Uppload File:</label>
+                <input type="file" name="filedata" id="filedata"><br>
+                <label for="">Date Time Data:</label>
+                <input type="datetime" name="dateTimeData" id="dateTimeData"><br>
+                <label for="">Password:</label>
+                <input type="password" name="passwordData" id="passwordData"><br>
+                <label for="">Selection:</label>
+                <select name="" id="">
+                    <option value="" disabled selected>--Choose a Fruit--</option>
+                    <option value="">Manggo</option>
+                    <option value="">Pineapple</option>
+                    <option value="">Apple</option>
+                    <option value="">Oranges</option>
+                </select>
+                <br>
+                <button disabled>Disabled Button</button><br>
+                <fieldset>
+                    <input type="radio" id='english'>
+                    <label for="english">English</label>
+                    <input type="radio" id='english'>
+                    <label for="english">Hindi</label>
+                    <input type="radio" id='english'>
+                    <label for="english">Telegu</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <textarea name="" id="" value="Please input your message" placeholder="Please Input Your Message......."></textarea>
+                </fieldset>
+                <br>
+                <label for="">Data List:</label>
+                <input list="values" name="answer">
+                    <!-- HTML datalist -->
+                    <datalist id="values">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C#">C#</option>
+                    <option value="PHP">PHP</option>
+                    </datalist>
+                <br><br><br>
+                <input type="submit" value="Submit">               
+            </form>
+            <fieldset>
+                <legend><b>Caption</b></legend>
+                <p>This an example Legend Format</p>
+            </fieldset>
+        </div>
+        
+        <div class="form2">
+            <form action="form.post.php" method="post">
+                <fieldset>
+                    <legend><b>Form Input Data</b></legend>                
+                    <label for="name">Enter Your Name:</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="age">Enter Your Age:</label>
+                    <input type="number" name="age" id="age"><br>
+                    <label for="datamonth">Input Month:</label>
+                    <input type="month" name="datamonth" id="datamonth"><br>
+                    <label for="weekdata">Week:</label>
+                    <input type="week" name="weekdata" id="weekdata"><br>
+                    <label for="timedata">Time:</label>
+                    <input type="time" name="timedata" id="timedata"><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        
+        </article>      
+    </section>
+    <!-- END SECTION -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a> |
+            <a href="">Policy</a> |
+            <a href="">Terms of Use</a> |
+            <a href="">Privacy</a> |
+            <a href="contactUs.html">Contact</a> |
+        </div>
+        <div>
+            <p><b>Copyright © 2024. </b>MarSu Sta Cruz Campus, BSIS Students</p>
+        </div>
+    </footer>
+    <!-- END FOOTER-->
+</body>
+</html>

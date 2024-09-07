@@ -69,10 +69,10 @@ footer h2{
 }
 
 table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    height: 50px;
+    margin-bottom: 15px;
+    height: 80px;
 }
 
 th {
@@ -80,7 +80,19 @@ th {
 }
 
 .table_data {
-     text-align: center;
+     text-align: left;
+}
+
+thead .table_data1 {
+    text-align: left;
+}
+
+.table_data2 {
+    text-align: left;
+}
+
+.table_data3 {
+    text-align: left;
 }
 
 .login_form h2{
